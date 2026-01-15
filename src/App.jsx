@@ -1,9 +1,14 @@
 import React from "react";
-
+import Navbar from "./components/Navbar.jsx";
+import Banner from "./components/Banner.jsx";
+import Projects from "./components/Projects.jsx";
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Navbar />
+
+      <Banner />
+      <Projects />
     </div>
   );
 };
